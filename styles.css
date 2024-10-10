@@ -1,0 +1,60 @@
+.Queen {
+    text-align: center;
+    font-size: 6rem;
+}
+.bodybg {
+    background-image: linear-gradient(rgb(255, 221, 147), rgb(255, 127, 41));
+    margin: 0;
+}
+section {
+    font-size: 1.5rem;
+}
+footer {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.div1 {
+    padding: .5rem;
+    background-color: rgba(255, 255, 255, .25)
+}
+.iframe {
+    width: 500px;
+    height: 350px;
+}
+.lag {
+    color: rgb(139, 0, 0);
+}
+.copy {
+    text-align: center;
+}
+@media screen and (min-width: 375px) {
+    .div1 {
+        padding: 2rem;
+    }
+    .bodybg {
+        margin: .5rem;
+    }
+}
+@media screen and (max-width:767px) {
+    .iframe {
+        max-width: 304px;
+        max-height: 250px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .iframe {
+        width: 800px;
+        height: 500px;
+    }
+    .bodybg {
+        margin: 1rem;
+    }
+}
+@media screen and (min-width: 90rem) {
+    .Queen {
+        font-size: 8rem;
+    }
+    .bodybg {
+        margin: 2rem;
+    }
+}
